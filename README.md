@@ -37,10 +37,9 @@ python3 -m venv env_name
 source env_name/bin/activate
 ```
 
-### 3. Start Virtual Environment and Install Required Python Packages
+### 3. Install Required Python Packages
 
 ```bash
-source env_name/bin/activate
 pip install pandas
 pip install apache-airflow
 pip install Flask-Session==0.5
